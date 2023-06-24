@@ -2,7 +2,7 @@ library(httr)
 library(progress)
 library(tidyverse)
 library(jsonlite)
-setwd("/Users/islamtarlaci/ysk")
+setwd(WD_HERE)
 secim_id_liste <- c("2023 2.Tur" = 60822,
                     "2023 1.Tur" = 60792,
                     "2019 İstanbul Yenileme" = 50031,
